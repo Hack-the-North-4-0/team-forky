@@ -12,13 +12,15 @@ const Header = () => {
                                  width="36"
                                  height="32"></img>
                             <span className="govuk-header__logotype-text">
+                                <a href="/" className="govuk-header__link">
                                 GOV.UK
+                                </a>
                             </span>
             </span>
                     </a>
                 </div>
                 <div className="govuk-header__content">
-                    <a href="#" className="govuk-header__link govuk-header__link--service-name">
+                    <a href="/" className="govuk-header__link govuk-header__link--service-name">
                         Financial Wellbeing Community
                     </a>
                 </div>
