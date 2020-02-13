@@ -1,9 +1,9 @@
 import {useHistory} from 'react-router-dom';
 import {History} from "history";
 import React, {FC} from "react";
-import {Button} from "../Common/Button";
+import Button from "../Common/Button";
 
-export const Home: FC = () => {
+const Home: FC = () => {
     const history: History = useHistory();
     const start = (): void => history.push('Region');
     return (
@@ -19,3 +19,5 @@ export const Home: FC = () => {
         </div>
     );
 };
+
+export default Home;
