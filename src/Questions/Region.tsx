@@ -3,7 +3,7 @@ import {History} from "history";
 import {useHistory} from "react-router-dom";
 import {Button} from "../Common/Button";
 
-export const Region = () => {
+const Region = () => {
     const history: History = useHistory();
     const start = (): void => history.push('EmploymentStatus');
     return (
@@ -12,3 +12,5 @@ export const Region = () => {
         </div>
     )
 };
+
+export default Region;

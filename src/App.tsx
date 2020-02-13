@@ -1,14 +1,14 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import {Home} from "./Home/Home";
+import Home from "./Home/Home";
 import "./App.scss"
 import Footer from "./components/Footer"
 import Header from "./components/Header"
-import {Region} from "./Questions/Region"
-import {EmploymentStatus} from "./Questions/EmploymentStatus"
-import {Household} from "./Questions/Household"
-import {Incoming} from "./Questions/Incoming"
-import {Outgoing} from "./Questions/Outgoing"
+import Region from "./Questions/Region"
+import EmploymentStatus from "./Questions/EmploymentStatus"
+import Household from "./Questions/Household"
+import Incoming from "./Questions/Incoming"
+import Outgoing from "./Questions/Outgoing"
 
 const App = () => {
     return (
