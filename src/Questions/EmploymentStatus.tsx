@@ -9,7 +9,7 @@ function EmploymentStatus() {
     return (
 
         <div className="govuk-form-group">
-            <fieldset className="govuk-fieldset" aria-describedby="employment-hint">
+            <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
                 <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
                     <h1 className="govuk-fieldset__heading">
                         What is your employment status?
@@ -39,7 +39,6 @@ function EmploymentStatus() {
                     </div>
                 </div>
             </fieldset>
-            <hr />
             <div>
                 <Button text="Next" onClick={start} arrow={false} />
             </div>
