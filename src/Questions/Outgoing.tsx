@@ -1,7 +1,9 @@
 import React from "react";
 
-export const Outgoing = () => {
+const Outgoing = () => {
     return (
         <div/>
     )
 };
+
+export default Outgoing;
