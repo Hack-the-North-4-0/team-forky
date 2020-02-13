@@ -93,7 +93,7 @@ const Household = () => {
             </div>
           </div>
         </fieldset>
-        <Button text="Start now" onClick={income} arrow={true} />
+        <Button text="Next" onClick={income} arrow={false} />
       </div>
     </>
   )
