@@ -2,8 +2,8 @@ import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from "./Home/Home";
 import "./App.scss"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
+import Footer from "./Components/Footer"
+import Header from "./Components/Header"
 import Region from "./Questions/Region"
 import EmploymentStatus from "./Questions/EmploymentStatus"
 import Household from "./Questions/Household"
