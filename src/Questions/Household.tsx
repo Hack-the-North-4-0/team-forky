@@ -11,7 +11,7 @@ const Household = () => {
       <h1>Accomodation</h1>
       <p>Please enter some information about you living situation.</p>
       <div className="govuk-form-group">
-        <fieldset className="govuk-fieldset">
+        <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
           <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
             <h1 className="govuk-fieldset__heading">Where do you live?</h1>
           </legend>
