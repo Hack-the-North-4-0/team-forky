@@ -5,7 +5,7 @@ import {Button} from "../Common/Button";
 
 export const Home: FC = () => {
     const history: History = useHistory();
-    const start = (): void => history.push('Questionnaire/1');
+    const start = (): void => history.push('Region');
     return (
         <div>
             <h1 className="govuk-heading-xl">Financial Wellbeing</h1>
