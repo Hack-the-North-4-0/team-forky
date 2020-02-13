@@ -11,7 +11,7 @@ const handleClick = (event: MouseEvent<HTMLButtonElement>, props: ButtonProps): 
     props.onClick();
 };
 
-export const Button: FC<ButtonProps> = (props: ButtonProps) => {
+const Button: FC<ButtonProps> = (props: ButtonProps) => {
     return (
         <button className="govuk-button" data-module="govuk-button" onClick={(event): void => handleClick(event, props)}>
             <span>
@@ -26,3 +26,5 @@ export const Button: FC<ButtonProps> = (props: ButtonProps) => {
         </button>
     );
 };
+
+export default Button;
