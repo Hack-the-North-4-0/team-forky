@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {Home} from "./Home/Home";
 import "./App.scss"
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -16,8 +17,9 @@ const App = () => {
           </Switch>
         </BrowserRouter>
       </div>
+        <Footer/>
     </div>
   )
-}
+};
 
 export default App
