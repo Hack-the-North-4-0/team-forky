@@ -7,7 +7,6 @@ const Result: FC = () => {
   const toggleTodo = () => setIsTodoComplete(!isTodoComplete)
   return (
     <div>
-      // TODO Replace this comment with graph component
       <ActionList isTodoComplete={isTodoComplete} toggleTodo={toggleTodo} />
     </div>
   )
