@@ -21,9 +21,14 @@ const ActionList: FC<ActionList> = (props: ActionList) => {
         </span>
         <div className="govuk-checkboxes">
           <ActionItem label="Claim benefits" onClick={props.toggleTodo}>
+            <>
             You may be eligible for certain income benefits. There is now just
-            one application to claim benifits for housing benefit, job seekers
-            allowance, child tax credits and employment support allowance.
+            one application to claim{" "}
+            <a href="https://www.gov.uk/browse/benefits/" target="_BLANK">
+              benefits
+            </a> for housing benefit, job seekers
+              allowance, child tax credits and employment support allowance.
+            </>
           </ActionItem>
           <ActionItem
             label="Contact your local authority"
