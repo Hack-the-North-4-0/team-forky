@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom"
 
 const Household = () => {
   const history: History = useHistory()
-  const income = (): void => history.push("Income")
+  const bankDetails = (): void => history.push("BankDetails")
   return (
     <>
       <div className="govuk-form-group">
@@ -91,7 +91,7 @@ const Household = () => {
             </div>
           </div>
         </fieldset>
-        <Button text="Next" onClick={income} arrow={false} />
+        <Button text="Next" onClick={bankDetails} arrow={false} />
       </div>
     </>
   )

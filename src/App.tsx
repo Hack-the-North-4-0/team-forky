@@ -7,8 +7,7 @@ import Header from "./Components/Header"
 import Region from "./Questions/Region"
 import EmploymentStatus from "./Questions/EmploymentStatus"
 import Household from "./Questions/Household"
-import Incoming from "./Questions/Incoming"
-import Outgoing from "./Questions/Outgoing"
+import BankDetails from "./Questions/BankDetails"
 
 const App = () => {
     return (
@@ -25,8 +24,7 @@ const App = () => {
                                         <Route path="/Region" component={Region}/>
                                         <Route path="/EmploymentStatus" component={EmploymentStatus}/>
                                         <Route path="/Household" component={Household}/>
-                                        <Route path="/Incoming" component={Incoming}/>
-                                        <Route path="/Outgoing" component={Outgoing}/>
+                                        <Route path="/BankDetails" component={BankDetails}/>
                                     </Switch>
                                 </BrowserRouter>
                             </div>
