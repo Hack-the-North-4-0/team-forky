@@ -18,24 +18,36 @@ const ActionList: FC<ActionList> = (props: ActionList) => {
           positively impact your financial situation.
         </span>
         <div className="govuk-checkboxes">
-          <ActionItem label="Claim benefits">
+          <ActionItem label="Claim benefits" onClick={props.toggleTodo}>
             You may be eligible for certain income benefits. There is now just
             one application to claim benifits for housing benefit, job seekers
             allowance, child tax credits and employment support allowance.
           </ActionItem>
-          <ActionItem label="Contact your local authority">
+          <ActionItem
+            label="Contact your local authority"
+            onClick={props.toggleTodo}
+          >
             You may be eligible for certain income benefits. There is now just
             one application to claim benifits for housing benefit, job seekers
             allowance, child tax credits and employment support allowance.
           </ActionItem>
-          <ActionItem label="Contact your energy supplier">
+          <ActionItem
+            label="Contact your energy supplier"
+            onClick={props.toggleTodo}
+          >
             You may be able to get extra support with your bills
           </ActionItem>
-          <ActionItem label="Contact your local authority">
+          <ActionItem
+            label="Contact your local authority"
+            onClick={props.toggleTodo}
+          >
             You may be eligible for council tax reduction. You may also be
             eligble for additional payments to help with rent and other things.
           </ActionItem>
-          <ActionItem label="Contact United Utilities">
+          <ActionItem
+            label="Contact United Utilities"
+            onClick={props.toggleTodo}
+          >
             Reductions may be available on your water bill
           </ActionItem>
         </div>
