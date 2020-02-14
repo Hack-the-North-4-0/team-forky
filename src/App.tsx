@@ -11,6 +11,7 @@ import BankDetails from "./Questions/BankDetails"
 import Result from "./Result/Result"
 import Trend from "./Projection/Trend"
 import Expenses from "./Projection/Expenses"
+import Analysis from "./Analysis/Analysis";
 
 const App = () => {
     return (
@@ -31,6 +32,7 @@ const App = () => {
                                         <Route path="/Result" component={Result} />
                                         <Route path="/Trend" component={Trend}/>
                                         <Route path="/Expenses" component={Expenses}/>
+                                        <Route path="/Analysis" component={Analysis}/>
                                     </Switch>
                                 </BrowserRouter>
                             </div>
