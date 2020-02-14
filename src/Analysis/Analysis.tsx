@@ -13,7 +13,6 @@ const Analysis: FC = () => {
 
   return (
     <div className="govuk-tabs" data-module="govuk-tabs">
-      {isComplete && <>"Is complete" {isComplete}</>}
       <h2 className="govuk-tabs__title">Contents</h2>
       <ul className="govuk-tabs__list">
         <li className="govuk-tabs__list-item govuk-tabs__list-item--selected">

@@ -11,7 +11,9 @@ const Household = () => {
       <div className="govuk-form-group">
         <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
           <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
-            <h1 className="govuk-fieldset__heading">What are your living arrangements?</h1>
+            <h1 className="govuk-fieldset__heading">
+              What are your living arrangements?
+            </h1>
           </legend>
           <div className="govuk-radios">
             <div className="govuk-radios__item">
@@ -76,7 +78,12 @@ const Household = () => {
             </div>
           </div>
         </fieldset>
-        <Button text="Continue" onClick={bankDetails} arrow={false} />
+        <Button
+          text="Continue"
+          onClick={bankDetails}
+          arrow={false}
+          allowSkip={true}
+        />
       </div>
     </>
   )

@@ -15,7 +15,7 @@ const Home: FC = () => {
         <li>Calculate the impact of a life event</li>
       </ul>
       <p className="govuk-body">Takes less than three minutes.</p>
-      <Button text="Start now" onClick={start} arrow={true} />
+      <Button text="Start now" onClick={start} arrow={true} allowSkip={false} />
     </div>
   )
 }

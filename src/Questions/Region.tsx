@@ -77,7 +77,7 @@ const Region = () => {
           </div>
         </div>
       </fieldset>
-      <Button text="Continue" onClick={start} arrow={false} />
+      <Button text="Continue" onClick={start} arrow={false} allowSkip={true} />
     </div>
   )
 }
