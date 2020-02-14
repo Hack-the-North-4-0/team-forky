@@ -46,7 +46,7 @@ function BankDetails() {
                        aria-describedby="roll-number-hint" spellCheck="false"/>
             </div>
             <div>
-                <Button text="Next" onClick={start} arrow={false}/>
+                <Button text="Continue" onClick={start} arrow={false}/>
             </div>
         </div>
     );
