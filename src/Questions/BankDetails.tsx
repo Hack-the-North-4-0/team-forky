@@ -5,7 +5,7 @@ import {useHistory} from "react-router-dom"
 
 function BankDetails() {
     const history: History = useHistory();
-    const start = (): void => history.push('Household');
+    const analysis = (): void => history.push('Analysis');
     return (
         <div>
             <h1 className="govuk-heading-xl">Bank or building society account details</h1>
@@ -46,7 +46,7 @@ function BankDetails() {
                        aria-describedby="roll-number-hint" spellCheck="false"/>
             </div>
             <div>
-                <Button text="Continue" onClick={start} arrow={false}/>
+                <Button text="Continue" onClick={analysis} arrow={false}/>
             </div>
         </div>
     );
