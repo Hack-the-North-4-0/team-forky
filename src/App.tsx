@@ -21,7 +21,7 @@ const App = () => {
         <div className="govuk-width-container">
           <main className="govuk-main-wrapper " id="main-content" role="main">
             <div className="govuk-grid-row">
-              <div className="govuk-grid-column-two-thirds">
+              <div>
                 <BrowserRouter>
                   <Switch>
                     <Route exact={true} path="/" component={Home} />
