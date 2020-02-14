@@ -11,7 +11,7 @@ const Household = () => {
       <div className="govuk-form-group">
         <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
           <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
-            <h1 className="govuk-fieldset__heading">Where do you live?</h1>
+            <h1 className="govuk-fieldset__heading">What are your living arrangements?</h1>
           </legend>
           <div className="govuk-radios">
             <div className="govuk-radios__item">
@@ -26,7 +26,7 @@ const Household = () => {
                 className="govuk-label govuk-radios__label"
                 htmlFor="household"
               >
-                I own my own home
+                I am a homeowner
               </label>
             </div>
             <div className="govuk-radios__item">
@@ -41,7 +41,7 @@ const Household = () => {
                 className="govuk-label govuk-radios__label"
                 htmlFor="household-2"
               >
-                I have a mortgage
+                I am renting
               </label>
             </div>
             <div className="govuk-radios__item">
@@ -55,21 +55,6 @@ const Household = () => {
               <label
                 className="govuk-label govuk-radios__label"
                 htmlFor="household-3"
-              >
-                I rent
-              </label>
-            </div>
-            <div className="govuk-radios__item">
-              <input
-                className="govuk-radios__input"
-                id="household-4"
-                name="household"
-                type="radio"
-                defaultValue="northern-ireland"
-              />
-              <label
-                className="govuk-label govuk-radios__label"
-                htmlFor="household-4"
               >
                 I live in social housing
               </label>
