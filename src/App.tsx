@@ -8,7 +8,9 @@ import Region from "./Questions/Region"
 import EmploymentStatus from "./Questions/EmploymentStatus"
 import Household from "./Questions/Household"
 import BankDetails from "./Questions/BankDetails"
+import Result from "./Result/Result"
 import Trend from "./Projection/Trend"
+import Expenses from "./Projection/Expenses"
 
 const App = () => {
     return (
@@ -26,7 +28,9 @@ const App = () => {
                                         <Route path="/EmploymentStatus" component={EmploymentStatus}/>
                                         <Route path="/Household" component={Household}/>
                                         <Route path="/BankDetails" component={BankDetails}/>
+                                        <Route path="/Result" component={Result} />
                                         <Route path="/Trend" component={Trend}/>
+                                        <Route path="/Expenses" component={Expenses}/>
                                     </Switch>
                                 </BrowserRouter>
                             </div>
