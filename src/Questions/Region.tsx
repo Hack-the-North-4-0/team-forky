@@ -11,7 +11,7 @@ const Region = () => {
       <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
         <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
           <h1 className="govuk-fieldset__heading">
-            Which county do you live in?
+            Which country do you live in?
           </h1>
         </legend>
         <div className="govuk-radios">

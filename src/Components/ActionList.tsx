@@ -14,8 +14,10 @@ const ActionList: FC<ActionList> = (props: ActionList) => {
           <h1 className="govuk-fieldset__heading">Action lists</h1>
         </legend>
         <span id="nationality-hint" className="govuk-hint">
-          Below are some actionable steps you can take right now that could
-          positively impact your financial situation.
+          <>
+            Below are some actionable steps you can take right now that could
+            positively impact your financial situation.
+          </>
         </span>
         <div className="govuk-checkboxes">
           <ActionItem label="Claim benefits" onClick={props.toggleTodo}>
@@ -49,6 +51,15 @@ const ActionList: FC<ActionList> = (props: ActionList) => {
             onClick={props.toggleTodo}
           >
             Reductions may be available on your water bill
+          </ActionItem>
+          <ActionItem label="Speak to someone" onClick={props.toggleTodo}>
+            <>
+              Your not alone, there are multiple organizations who can help -{" "}
+              <a href="https://www.samaritans.org/" target="_BLANK">
+                Samaritans
+              </a>{" "}
+              whatever your going through a samaritan will be available to help
+            </>
           </ActionItem>
         </div>
       </fieldset>

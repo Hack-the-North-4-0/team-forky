@@ -1,8 +1,8 @@
-import React, { FC } from "react"
+import React, { FC, ReactElement } from "react"
 
 export interface ActionItem {
   label: String
-  children: String
+  children: String | ReactElement
   onClick: () => void
 }
 
