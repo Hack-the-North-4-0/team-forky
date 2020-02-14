@@ -8,6 +8,7 @@ import Region from "./Questions/Region"
 import EmploymentStatus from "./Questions/EmploymentStatus"
 import Household from "./Questions/Household"
 import BankDetails from "./Questions/BankDetails"
+import Trend from "./Projection/Trend"
 
 const App = () => {
     return (
@@ -25,6 +26,7 @@ const App = () => {
                                         <Route path="/EmploymentStatus" component={EmploymentStatus}/>
                                         <Route path="/Household" component={Household}/>
                                         <Route path="/BankDetails" component={BankDetails}/>
+                                        <Route path="/Trend" component={Trend}/>
                                     </Switch>
                                 </BrowserRouter>
                             </div>
