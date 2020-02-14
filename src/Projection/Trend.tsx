@@ -20,7 +20,8 @@ const Trend = () => {
                 <Tooltip />
                 <Legend></Legend>
             </LineChart>
-            <p>Projection of your financial state in six months</p>
+            <p>Projection of your finances over the next six months.</p>
+            <p>Please note this is based on your current bank account activity.</p>
         </div>
     )
 };

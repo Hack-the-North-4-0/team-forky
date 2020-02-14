@@ -26,7 +26,7 @@ const Expenses = () => {
                 <Pie data={data02} dataKey="value" cx={200} cy={200} innerRadius={125} outerRadius={145} fill="#82ca9d" label />
                 <Tooltip/>
             </PieChart>
-            <p>Approximate monthly expenses based on your bank account</p>
+            <p>Approximate monthly expenses based on your bank account activity</p>
         </div>
     )
 };
