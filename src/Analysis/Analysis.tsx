@@ -40,7 +40,7 @@ const Analysis: FC = () => {
         id="projection"
       >
         <h2 className="govuk-heading-l">Projection</h2>
-        <Trend />
+        <Trend count={isComplete}/>
       </section>
       <section
         className="govuk-tabs__panel govuk-tabs__panel--hidden"
@@ -51,6 +51,6 @@ const Analysis: FC = () => {
       </section>
     </div>
   )
-}
+};
 
 export default Analysis
