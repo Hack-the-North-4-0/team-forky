@@ -1,6 +1,6 @@
-import React from "react"
-import { BrowserRouter, Route, Switch } from "react-router-dom"
-import Home from "./Home/Home"
+import React from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Home from "./Home/Home";
 import "./App.scss"
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
@@ -9,7 +9,6 @@ import EmploymentStatus from "./Questions/EmploymentStatus"
 import Household from "./Questions/Household"
 import BankDetails from "./Questions/BankDetails"
 import Trend from "./Projection/Trend"
-import Result from "./Result/Result"
 
 const App = () => {
     return (
@@ -28,7 +27,6 @@ const App = () => {
                                         <Route path="/Household" component={Household}/>
                                         <Route path="/BankDetails" component={BankDetails}/>
                                         <Route path="/Trend" component={Trend}/>
-                                        <Route path="/Result" component={Result} />
                                     </Switch>
                                 </BrowserRouter>
                             </div>
@@ -36,9 +34,9 @@ const App = () => {
                     </main>
                 </div>
             </div>
-      <Footer />
-    </div>
-  )
-}
+            <Footer/>
+        </div>
+    )
+};
 
 export default App
