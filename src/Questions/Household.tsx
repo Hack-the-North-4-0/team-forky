@@ -8,8 +8,6 @@ const Household = () => {
   const income = (): void => history.push("Income")
   return (
     <>
-      <h1>Accomodation</h1>
-      <p>Please enter some information about you living situation.</p>
       <div className="govuk-form-group">
         <fieldset className="govuk-fieldset govuk-!-margin-bottom-4">
           <legend className="govuk-fieldset__legend govuk-fieldset__legend--xl">
