@@ -1,9 +1,12 @@
-import React, { FC } from "react"
+import React, {FC, useEffect} from "react"
 import Trend from "../Projection/Trend"
 import ActionList from "../Components/ActionList"
 import Expenses from "../Projection/Expenses"
+// @ts-ignore
+import { initAll } from '../../node_modules/govuk-frontend'
 
 const Analysis: FC = () => {
+    useEffect(initAll, []);
   return (
     <div className="govuk-tabs" data-module="govuk-tabs">
       <h2 className="govuk-tabs__title">Contents</h2>
@@ -13,7 +16,7 @@ const Analysis: FC = () => {
             Expenses
           </a>
         </li>
-        <li className="govuk-tabs__list-item govuk-tabs__list-item">
+        <li className="govuk-tabs__list-item">
           <a className="govuk-tabs__tab" href="#projection">
             Projection
           </a>
@@ -28,17 +31,11 @@ const Analysis: FC = () => {
         <h2 className="govuk-heading-l">Expenses</h2>
         <Expenses />
       </section>
-      <section
-        className="govuk-tabs__panel govuk-tabs__panel--hidden"
-        id="projection"
-      >
+      <section className="govuk-tabs__panel govuk-tabs__panel--hidden" id="projection">
         <h2 className="govuk-heading-l">Projection</h2>
         <Trend />
       </section>
-      <section
-        className="govuk-tabs__panel govuk-tabs__panel--hidden"
-        id="actionList"
-      >
+      <section className="govuk-tabs__panel govuk-tabs__panel--hidden" id="actionList">
         <h2 className="govuk-heading-l">Action List</h2>
         <ActionList isTodoComplete={false} toggleTodo={() => {}} />
       </section>
