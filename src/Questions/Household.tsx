@@ -91,7 +91,7 @@ const Household = () => {
             </div>
           </div>
         </fieldset>
-        <Button text="Next" onClick={bankDetails} arrow={false} />
+        <Button text="Continue" onClick={bankDetails} arrow={false} />
       </div>
     </>
   )

@@ -40,7 +40,7 @@ function EmploymentStatus() {
                 </div>
             </fieldset>
             <div>
-                <Button text="Next" onClick={start} arrow={false} />
+                <Button text="Continue" onClick={start} arrow={false} />
             </div>
         </div>
     );
